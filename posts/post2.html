@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta  name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+  <title>Using whisper.cpp</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div id="top-banner">
+    🌱 <strong>Support Earth:</strong> Go Green – No War, Only Peace.
+  </div>
+
+  <header id="top-nav">
+    <div id="logo-title">mY-bLoG</div>
+
+    <input type="text" disabled placeholder="Search disabled on post page" />
+
+    <div id="contact">
+      <a href="https://github.com/akshat16206" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://www.linkedin.com/in/hermits/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://x.com/akshat8036?t=2vvHWz1m0rgElz2dMJHudg&s=09" target="_blank" rel="noopener noreferrer">Twitter</a> |
+      <a href="https://hermits-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">myWebsite</a>
+    </div>
+  </header>
+
+  <div id="layout">
+    <aside id="left-sidebar">
+      <h3>Back</h3>
+      <ul>
+        <li><a href="../index.html">← All Posts</a></li>
+      </ul>
+    </aside>
+
+    <main id="main-content">
+      <h2>Idea-Capture-AI</h2>
+      <p><em>Posted on June 24, 2025</em></p>
+        <p>
+    Ever had a brilliant idea in your head and lost it before writing it down? I built a solution to that: an offline AI-powered notebook that listens, transcribes, summarizes, and stores your ideas — all without relying on internet or API keys.
+  </p>
+
+  <h2>What This Project Does</h2>
+  <ul>
+    <li>Records your voice using a Python script</li>
+    <li>Transcribes the audio into text with <code>whisper.cpp</code></li>
+    <li>Summarizes your thoughts using a local LLM (<code>llama.cpp</code> + Mistral 7B)</li>
+    <li>Saves everything in a searchable JSON notebook</li>
+    <li>Works 100% offline — perfect for privacy and speed</li>
+  </ul>
+
+  <h2>Use Cases</h2>
+  <ul>
+    <li>Capturing creative ideas on the fly</li>
+    <li>Building a voice-based productivity journal</li>
+    <li>Recording lecture notes or tech insights quickly</li>
+    <li>Hands-free ideation for developers or thinkers</li>
+  </ul>
+
+  <h2>Source Code</h2>
+  <p>
+    View the full project on GitHub:<br>
+    <a href="https://github.com/akshat16206/idea-capture-ai" target="_blank" rel="noopener noreferrer">
+      Source-code
+    </a>
+  </p>
+
+  <h2>Open-Source Projects Used</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/ggerganov/whisper.cpp" target="_blank" rel="noopener noreferrer">whisper.cpp</a> by Georgi Gerganov – used for offline speech-to-text transcription
+    </li>
+    <li>
+      <a href="https://github.com/ggerganov/llama.cpp" target="_blank" rel="noopener noreferrer">llama.cpp</a> by Georgi Gerganov – used to run local large language models
+    </li>
+    <li>
+      <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF" target="_blank" rel="noopener noreferrer">Mistral 7B Instruct</a> by TheBloke – the actual LLM model for idea summarization (GGUF format)
+    </li>
+  </ul>
+
+  <h2>Why This Matters</h2>
+  <p>
+    Most voice AI tools require cloud services, API keys, and compromise on privacy. This project gives creators, developers, and thinkers a way to log ideas quickly — even offline — without giving data to third parties.
+  </p>
+
+  <h2>Project Demo</h2>
+  <p>Here’s a short demo video showing the full workflow:</p>
+  <video width="720" height="400" controls>
+    <source src="/assets/post2-demo1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>For the Nerds</h2>
+  <p>
+    Why did the AI quit its job?  
+    Because it didn’t get enough training data.
+  </p>
+
+  <hr>
+
+  <p>Written by Akshat Gupta · MIT License · Built for fun, privacy, and offline productivity.</p>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Akshat Gupta | Built with ♥️ for research & learning</p>
+  </footer>
+</body>
+</html>
