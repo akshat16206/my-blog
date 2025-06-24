@@ -1,12 +1,12 @@
 [
   {
-    "title": "The website: mY-bLoG",
-    "description": "A small personal project to share my ideas, projects, and what I’m learning — all in one place. Built in the style of old-net to keep things simple, clean, and distraction-free",
-    "link": "posts/post1.html"
-  },
-  {
     "title": "Idea-Capture-AI",
     "description": "An offline AI-powered notebook that records your voice, transcribes it using whisper.cpp, and summarizes it with a local LLM. No APIs, no cloud — just fast, private idea capture directly on your machine.",
     "link": "posts/post2.html"
+  },
+  {
+    "title": "The website: mY-bLoG",
+    "description": "A small personal project to share my ideas, projects, and what I’m learning — all in one place. Built in the style of old-net to keep things simple, clean, and distraction-free",
+    "link": "posts/post1.html"
   }
-]
+] 
