@@ -1,5 +1,10 @@
 [
   {
+    "title": "Deep Learning",
+    "description": "introduction to Deep Learning, why DeepLearning and why now?",
+    "link": "posts/post3.html"
+  },
+  {
     "title": "Idea-Capture-AI",
     "description": "An offline AI-powered notebook that records your voice, transcribes it using whisper.cpp, and summarizes it with a local LLM. No APIs, no cloud — just fast, private idea capture directly on your machine.",
     "link": "posts/post2.html"
