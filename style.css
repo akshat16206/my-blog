@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Linux Libertine", "Georgia", serif;
+  background: white;
+  color: #202122;
+}
+
+#top-banner {
+  background: #f8fff0;
+  color: #065f46;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.9em;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdfdfd;
+  padding: 10px 20px;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+#logo-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#search-input {
+  flex: 1;
+  margin: 0 20px;
+  padding: 6px;
+  font-size: 1em;
+}
+
+#contact a {
+  margin: 0 5px;
+  color: #0645ad;
+  text-decoration: none;
+}
+
+#layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#left-sidebar {
+  width: 200px;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+#main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+#post-list article {
+  margin-bottom: 30px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px;
+  margin-top: 50px;
+}
