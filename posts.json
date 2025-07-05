@@ -1,5 +1,10 @@
 [
   {
+    "title": "Django",
+    "description": "Easy documentation on django",
+    "link": "posts/post4.html"
+  },
+  {
     "title": "Deep Learning",
     "description": "introduction to Deep Learning, why DeepLearning and why now?",
     "link": "posts/post3.html"
